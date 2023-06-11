@@ -2,8 +2,8 @@
 
 clone of Finn.no 
 
-React
-Typescript
-React Router
-Redux Toolkit
-Styled components
+- React
+- Typescript
+- React Router
+- Redux Toolkit
+- Styled components
