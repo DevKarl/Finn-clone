@@ -1,12 +1,6 @@
 
 const Categories = () => {
 
-    
-
-
-
-
-
     return(
         <nav>
             <a>Torget</a>
