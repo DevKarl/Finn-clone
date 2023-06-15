@@ -1,0 +1,10 @@
+
+Finish main-routing system 
+design each page with HTML&CSS
+Find Public API with dummy data or create dummy api with Mirage.js(custom json user object-data)?
+Functionality..
+
+Hard challenges for later:
+add user accounts with auth and login
+users can chat in live chat system? 
+
