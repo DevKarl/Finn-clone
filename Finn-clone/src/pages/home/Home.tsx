@@ -1,12 +1,18 @@
 
 
 import Find from './Find';
+import Categories from './Categories';
+import PopularAds from './PopularAds';
+import RandomAd from './RandomAd';
 
 const Home = () => {
     return(
-        <>
-            <Find></Find>
-        </>
+        <div>
+            <Find/>
+            <Categories/>
+            <RandomAd/>
+            <PopularAds/>
+        </div>
     )
 }
 
