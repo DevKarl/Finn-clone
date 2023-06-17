@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import { SmallFinnLogo } from '../../assets/header/smallFinnLogo';
+import { SmallFinnLogo } from '../../assets/header/SmallFinnLogo';
 import { NotificationBell } from '../../assets/header/NotificationBell';
-import { AddNewAdIcon } from '../../assets/header/addNewAdIcon';
+import { AddNewAdIcon } from '../../assets/header/AddNewAdIcon';
 import { MessagesIcon } from '../../assets/header/MessagesIcon';
 import { ProfileLoginIcon } from '../../assets/header/ProfileLoginIcon';
 
