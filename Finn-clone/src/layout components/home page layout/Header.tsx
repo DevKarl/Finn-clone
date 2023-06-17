@@ -4,14 +4,25 @@ import { NotificationBell } from '../../assets/header/NotificationBell';
 import { AddNewAdIcon } from '../../assets/header/AddNewAdIcon';
 import { MessagesIcon } from '../../assets/header/MessagesIcon';
 import { ProfileLoginIcon } from '../../assets/header/ProfileLoginIcon';
+import { CSSProperties } from 'styled-components';
 
 
 const Header = () => {
 
+    const navBarStyle: CSSProperties = {
+        height: '45px', 
+        display: 'flex', 
+        flexDirection: 'row', 
+        justifyContent: 'space-between', 
+        alignItems: 'center', 
+        borderBottom: '1px solid #ccc',
+    }
+
+
     return(
             <header>
-                <nav style={{height: '45px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', borderBottom: '1px solid #ccc'}}>
-                    <Link to='/'>
+                <nav style={navBarStyle}>
+                    <Link to='/' style={{marginLeft: '10px'}}>
                         <SmallFinnLogo/>
                     </Link>
                     <Link to='notifications'>
@@ -23,7 +34,7 @@ const Header = () => {
                     <Link to='messages'>
                         <MessagesIcon/>
                     </Link>
-                    <Link to='my-finn'>
+                    <Link to='my-finn' style={{marginRight: '30px'}}>
                         <ProfileLoginIcon/>
                     </Link>
                 </nav>

@@ -1,6 +1,18 @@
+NOW: 
 
-Finish main-routing system 
-design each page with HTML&CSS
+    MOBILE FIRST! 
+
+    - MOBILE FIRST: design landing page with HTML&CSS, styled components
+        - header
+        - search field
+        - categories
+        - random ad (hardcode)
+        - popular ads section
+    ^ setup links for these
+
+LATER:
+    - setup the links and refactor routes
+
 Find Public API with dummy data or create dummy api with Mirage.js(custom json user object-data)?
 Functionality..
 
