@@ -1,13 +1,31 @@
+import { Link } from 'react-router-dom';
+import { SmallFinnLogo } from '../../assets/header/smallFinnLogo';
+import { NotificationBell } from '../../assets/header/NotificationBell';
+import { AddNewAdIcon } from '../../assets/header/addNewAdIcon';
+import { MessagesIcon } from '../../assets/header/MessagesIcon';
+import { ProfileLoginIcon } from '../../assets/header/ProfileLoginIcon';
 
 
 const Header = () => {
+
     return(
             <header>
-                <nav>
-                    <a href="/">Finn logo</a>
-                    <a href="/">notifications</a>
-                    <a href="/"> create ad </a>
-                    <a href="/"> user </a>
+                <nav style={{height: '45px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', borderBottom: '1px solid #ccc'}}>
+                    <Link to='/'>
+                        <SmallFinnLogo/>
+                    </Link>
+                    <Link to='notifications'>
+                        <NotificationBell/>
+                    </Link>
+                    <Link to='add-new-ad'>
+                        <AddNewAdIcon/>
+                    </Link>
+                    <Link to='messages'>
+                        <MessagesIcon/>
+                    </Link>
+                    <Link to='my-finn'>
+                        <ProfileLoginIcon/>
+                    </Link>
                 </nav>
             </header>
     )

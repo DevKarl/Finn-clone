@@ -8,13 +8,15 @@ const HomePageLayout = () => {
     // add site wrapper class w/styled components
 
     return(
-        <div style={{display: 'flex', flexDirection: 'column', height: '100vh', maxWidth: '1010px', gap: '30px'}}>
+        <>
             <Header/>
-            <main>
-                <Outlet/>
-            </main>
-            <Footer/>
-        </div>
+            <div style={{display: 'flex', flexDirection: 'column', height: '100vh', maxWidth: '1010px', gap: '30px'}}>
+                <main>
+                    <Outlet/>
+                </main>
+                <Footer/>
+            </div>
+        </>
     )
 }
 
