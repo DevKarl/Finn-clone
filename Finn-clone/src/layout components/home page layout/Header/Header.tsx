@@ -1,33 +1,34 @@
-import { Link } from 'react-router-dom';
 import { SmallFinnLogo } from '../../../assets/header/SmallFinnLogo';
 import { NotificationBell } from '../../../assets/header/NotificationBell';
 import { AddNewAdIcon } from '../../../assets/header/AddNewAdIcon';
 import { MessagesIcon } from '../../../assets/header/MessagesIcon';
 import { ProfileLoginIcon } from '../../../assets/header/ProfileLoginIcon';
-import StyledNavBar from './Header.styles';
+import { StyledNavBar, StyledHeader, StyledLink } from './Header.styles';
 
 const Header = () => {
 
     return(
-            <header>
+        <>
+            <StyledHeader>
                 <StyledNavBar>
-                    <Link to='/'>
+                    <StyledLink to='/'>
                         <SmallFinnLogo/>
-                    </Link>
-                    <Link to='notifications'>
+                    </StyledLink>
+                    <StyledLink to='notifications'>
                         <NotificationBell/>
-                    </Link>
-                    <Link to='add-new-ad'>
+                    </StyledLink>
+                    <StyledLink to='add-new-ad'>
                         <AddNewAdIcon/>
-                    </Link>
-                    <Link to='messages'>
+                    </StyledLink>
+                    <StyledLink to='messages'>
                         <MessagesIcon/>
-                    </Link>
-                    <Link to='my-finn'>
+                    </StyledLink>
+                    <StyledLink to='my-finn'>
                         <ProfileLoginIcon/>
-                    </Link>
+                    </StyledLink>
                 </StyledNavBar>
-            </header>
+            </StyledHeader>
+        </>
     )
 }
 

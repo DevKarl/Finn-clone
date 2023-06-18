@@ -8,7 +8,7 @@ const HomePageLayout = () => {
     return(
         <StyledSiteWrapper>
             <Header/>
-                <main>
+                <main style={{display: 'flex', flexDirection: 'column', marginLeft: 'auto', marginRight: 'auto'}}>
                     <Outlet/>
                 </main>
             <Footer/>

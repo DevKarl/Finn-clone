@@ -6,7 +6,7 @@ import RandomAd from '../Random Ad/RandomAd';
 const Home = () => {
     
     return(
-        <div>
+        <div style={{maxWidth: '1010px', width: '100vw'}}>
             <Find/>
             <Categories/>
             <RandomAd/>
