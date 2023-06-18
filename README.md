@@ -2,9 +2,11 @@
 
 clone of Finn.no 
 
+currently in the works 🔧 ...
+
 Tools and libraries: 
 
-- React
+- React with Vite
 - Typescript
 - React Router
 - Redux Toolkit
