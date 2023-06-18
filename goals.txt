@@ -1,8 +1,5 @@
-NOW: 
-
-    MOBILE FIRST! 
-
-    - MOBILE FIRST: design landing page with HTML&CSS, styled components
+NOW:  
+    - MOBILE FIRST: build landing page with HTML&CSS, styled components
         - header
         - search field
         - categories

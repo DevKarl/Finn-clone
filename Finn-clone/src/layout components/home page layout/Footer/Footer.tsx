@@ -1,5 +1,6 @@
 
 const Footer = () => {
+
     return(
             <footer style={{marginTop: 'auto'}}>
                 <p>For bedrifter</p>

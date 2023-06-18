@@ -1,11 +1,10 @@
-
-
-import Find from './Find';
-import Categories from './Categories';
-import PopularAds from './PopularAds';
-import RandomAd from './RandomAd';
+import Find from '../Find/Find';
+import Categories from '../Categories/Categories';
+import PopularAds from '../Popular Ads/PopularAds';
+import RandomAd from '../Random Ad/RandomAd';
 
 const Home = () => {
+    
     return(
         <div>
             <Find/>

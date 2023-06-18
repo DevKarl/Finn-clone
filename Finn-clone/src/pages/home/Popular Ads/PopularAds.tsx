@@ -1,5 +1,5 @@
 
-import ProductGrid from "../../components/product components/ProductGrid";
+import ProductGrid from "../../../components/product components/ProductGrid";
 
 const PopularAds = () => {
     return(
