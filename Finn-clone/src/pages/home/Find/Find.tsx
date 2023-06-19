@@ -1,20 +1,20 @@
 import { SearchIcon } from "../../../assets/home/find/SearchIcon";
 import { FinnMapIcon } from "../../../assets/home/find/FinnMapIcon";
-import { StyledFindWrapper, StyledSearchField, StyledFinnMapBtn } from "./Find.styles";
+import { StyledFindWrapper, StyledSearchField, StyledFinnMapBtn, StyledInput, StyledInputBtn } from "./Find.styles";
 
 const Find = () => {
 
     return(
         <StyledFindWrapper>
             <StyledSearchField>
-                <input placeholder="Søk etter FINN-kode"></input>
-                <button style={{border: 'none', backgroundColor: 'transparent', position: 'absolute'}}>
+                <StyledInput placeholder="Søk etter FINN-kode"></StyledInput>
+                <StyledInputBtn>
                     <SearchIcon/>
-                </button>
+                </StyledInputBtn>
             </StyledSearchField>
             <StyledFinnMapBtn>
-                    <FinnMapIcon/>
-                <h3>FINN Kart</h3>
+                <FinnMapIcon/>
+                <strong>Kart</strong>
             </StyledFinnMapBtn>
         </StyledFindWrapper>
     )

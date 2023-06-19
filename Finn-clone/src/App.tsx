@@ -3,6 +3,7 @@ import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } 
 import HomePageLayout from "./layout components/home page layout/HomePageLayout/HomePageLayout";
 import Home from "./pages/home/Home/Home";
 import Search from "./pages/search/Search";
+import './App.styles.css'
 
 const routes = createRoutesFromElements(
   <Route path="/" element = {<HomePageLayout/>}>

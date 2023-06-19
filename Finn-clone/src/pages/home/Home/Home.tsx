@@ -2,16 +2,17 @@ import Find from '../Find/Find';
 import Categories from '../Categories/Categories';
 import PopularAds from '../Popular Ads/PopularAds';
 import RandomAd from '../Random Ad/RandomAd';
+import { StyledHomeWrapper } from './Home.styles';
 
 const Home = () => {
     
     return(
-        <div style={{maxWidth: '1010px'}}>
+        <StyledHomeWrapper>
             <Find/>
             <Categories/>
             <RandomAd/>
             <PopularAds/>
-        </div>
+        </StyledHomeWrapper>
     )
 }
 
