@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
-const StyledSiteWrapper = styled.div`
+export const StyledSiteWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
 `
 
-export default StyledSiteWrapper
+export const StyledMainWrapper = styled.main`
+    width: 100%;
+    max-width: 1010px;
+`

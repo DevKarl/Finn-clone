@@ -5,7 +5,6 @@ export const StyledFindWrapper = styled.section`
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 15px 0px;
     justify-content: space-between;
 `
 

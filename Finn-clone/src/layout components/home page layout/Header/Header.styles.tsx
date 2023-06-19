@@ -13,13 +13,12 @@ export const StyledHeader = styled.header`
 `
 
 export const StyledNavBar = styled.nav`
-    width: 1010px;
+    max-width: 1010px;
+    width: 100%;
+    padding: 0px 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 16px;
-    padding-right: 16px;
     background-color: white;
 `
 
@@ -35,6 +34,7 @@ export const StyledLink = styled(Link)`
 
     :nth-of-type(1) {
         margin-left: 0;
+        padding: 0;
     }
 
     &:hover {

@@ -3,7 +3,7 @@ const Categories = () => {
 
     return(
         <section>
-            <nav style={{display: 'grid', gridTemplateColumns: 'repeat(6, 2fr)'}}>
+            <nav style={{display: 'grid', gridTemplateColumns: 'repeat(6, 2fr)', overflow: 'auto'}}>
                 <a>Torget</a>
                 <a>Eiendom</a>
                 <a>Bil og næring</a>
