@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
-    position: sticky;
+    position: fixed;
     top: 0;
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #ccc;
     height: 49px;
     width: 100vw;
+    z-index: 100;
 `
 
 export const StyledNavBar = styled.nav`
@@ -39,8 +40,5 @@ export const StyledLink = styled(Link)`
 
     &:hover {
         border-bottom: 2px solid #0063fb;
-    }
-    &:hover svg {
-        transform: translateY(1px);
     }
 `
