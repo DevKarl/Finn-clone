@@ -40,5 +40,6 @@ export const StyledLink = styled(Link)`
 
     &:hover {
         border-bottom: 2px solid #0063fb;
+        transform: translateY(1px);
     }
 `
