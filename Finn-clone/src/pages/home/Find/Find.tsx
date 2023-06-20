@@ -14,7 +14,7 @@ const Find = () => {
             </StyledSearchField>
             <StyledFinnMapBtn>
                 <FinnMapIcon/>
-                <strong>Kart</strong>
+                <p>FINN kart</p>
             </StyledFinnMapBtn>
         </StyledFindWrapper>
     )
