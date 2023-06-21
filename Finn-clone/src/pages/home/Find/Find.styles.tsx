@@ -34,6 +34,14 @@ export const StyledInput = styled.input`
     font-weight: 100;
     opacity: 0.7;
     text-overflow: ellipsis;
+
+    :hover {
+        border: 1px solid #393939;
+    }
+
+    :focus {
+        outline: none;
+    }
 `
 
 export const StyledInputBtn = styled.button`
@@ -49,6 +57,11 @@ export const StyledInputBtn = styled.button`
     >svg {
         opacity: 0.6;
     }
+
+    :hover {
+        color: #008cbb;
+        cursor: pointer;
+    }
 `
 
 
@@ -58,6 +71,13 @@ export const StyledFinnMapBtn = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    :hover {
+        cursor: pointer;
+        p {
+            text-decoration: underline;
+        }
+    }
 
     >svg {
         margin-right: 10px;

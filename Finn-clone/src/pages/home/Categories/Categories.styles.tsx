@@ -46,11 +46,6 @@ export const StyledGridItemLink = styled(Link)`
         align-self: center;
     }
 
-    /* svg:hover {
-        color: #636363;
-
-    } */
-
     p {
         font-size: 14px;
         line-height: 18px;
