@@ -3,7 +3,7 @@ export const AddNewAdIcon = () => {
     return(
         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g>
-                <path fill="#818B9A" fill-rule="evenodd" clip-rule="evenodd" 
+                <path fill="#818B9A" fillRule="evenodd" clipRule="evenodd" 
                 d="M2 12.5C2 6.70101 6.70101 2 12.5 2C18.299 2 23 6.70101 23 
                 12.5C23 18.299 18.299 23 12.5 23C6.70101 23 2 18.299 2 12.5ZM12.5 
                 0.5C5.87258 0.5 0.5 5.87258 0.5 12.5C0.5 19.1274 5.87258 24.5 12.5 

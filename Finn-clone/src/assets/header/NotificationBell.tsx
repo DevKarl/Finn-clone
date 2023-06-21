@@ -2,7 +2,7 @@ export const NotificationBell = () => {
     return(
         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g>
-                <path fill="#818B9A" fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0.5C12.9142 0.5 13.25 
+                <path fill="#818B9A" fillRule="evenodd" clipRule="evenodd" d="M12.5 0.5C12.9142 0.5 13.25 
                 0.835786 13.25 1.25V2.78437C17.4907 3.17507 20.75 6.84424 20.75 11.119C20.75 14.6514 21.1208 
                 16.6654 21.4659 17.7701C21.6378 18.3204 21.8009 18.6373 21.9028 18.8015C21.9537 18.8833 21.9891 
                 18.927 22.0028 18.9429L22.0056 18.9461C22.2277 19.1486 22.3083 19.4659 22.2066 19.7516C22.1002 

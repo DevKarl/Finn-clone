@@ -2,7 +2,7 @@
 export const TorgetIcon = () => {
     return(
         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="28" fill="none" viewBox="0 0 42 28">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
             d="M6 11V9a7 7 0 017-7h8m15 9V9a7 7 0 00-7-7h-8m15 9h-1a2 2 0 00-2 2v5H21m15-7h1a2 2 0 012 
             2v5a6 6 0 01-6 6h-1m0 0H10m22 0v3m-22-3H9a6 6 0 01-6-6v-5a2 2 0 012-2h2a2 2 0 012 2v5h12m-11 
             6v3m11-9V2">
@@ -14,7 +14,7 @@ export const TorgetIcon = () => {
 export const EiendomIcon = () => {
     return(
         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="28" fill="none" viewBox="0 0 42 28">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
             d="M9 13L24 1l15 12m-3 14H12m24 0h5m-5 0V5h-4v2.4M12 27V10.6M12 27H5a4 4 0 114-4h1a2 2 0 
             012 2v2zm15-1v-6a1 1 0 00-1-1h-4a1 1 0 00-1 1v6m0-15.75v2.5c0 .69.576 1.25 1.286 
             1.25h3.428c.71 0 1.286-.56 1.286-1.25v-2.5C27 9.56 26.424 9 25.714 9h-3.428C21.576 9 21 
@@ -70,7 +70,7 @@ export const JobbIcon = () => {
 export const ReiseIcon = () => {
     return(
         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="28" fill="none" viewBox="0 0 42 28">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
              d="M15.5 13h-5.142a3.844 3.844 0 01-1.97-.483 4.057 4.057 0 01-1.49-1.431L1 1h3.899l5.459 
              4H37a4 4 0 010 8H27M9 9H2m13 4l2.571-2H27v4h-9.429L15 13zm16 14a3 3 0 112.152-5.09A3.999 
              3.999 0 1137 27h-6zM7 18a2.999 2.999 0 00-2.933 2.356A1.943 1.943 0 003 20a2 2 0 100 
@@ -83,7 +83,7 @@ export const ReiseIcon = () => {
 export const BåtIcon = () => {
     return(
         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="28" fill="none" viewBox="0 0 42 28">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
             d="M35 25l3.638-7.276a.5.5 0 00-.447-.724H3.809a.5.5 0 00-.447.724L7 25m-6 1.919a8.997 8.997
              0 004.302-.47A9.682 9.682 0 009 24a8.158 8.158 0 002.717 2.157 7.493 7.493 0 
              003.283.763c1.13 0 2.25-.26 3.283-.763A8.158 8.158 0 0021 24a8.157 8.157 0 002.717 2.156
@@ -98,7 +98,7 @@ export const BåtIcon = () => {
 export const MCIcon = () => {
     return(
         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="28" fill="none" viewBox="0 0 42 28">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
             d="M36 7.5V10M5 8h5.5l2.5 3m4 5v5h6l4-8 6-2.5V7m-16 9l-4-5m4 5l-4.5 2m.5-7h7l1.447-2.894A2
              2 0 0123.237 7H33m0 0l-7-5m6 13.5L30 12m11 9a6 6 0 11-12 0 6 6 0 0112 0zm-28 0a6 6 
              0 11-12 0 6 6 0 0112 0z">
@@ -110,7 +110,7 @@ export const MCIcon = () => {
 export const FeriehusOgHytterIcon = () => {
     return(
         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="28" fill="none" viewBox="0 0 42 28">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
             d="M22 3l-2 2-2-2M1 27h40M4 14v13m16-13v13m-5 0v-7a1 1 0 00-1-1h-4a1 1 0 00-1 1v7M1 16l11-9 
             11 9m10 4h6l-3-5.5h3l-3.5-6h3L33 1l-5.3 7.5h3l-3.7 6h3L27 20h6zm0 0v7">
             </path>
@@ -121,16 +121,16 @@ export const FeriehusOgHytterIcon = () => {
 export const NybruktMobilIcon = () => {
     return(
         <svg width="42" height="28" viewBox="0 0 42 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_4530_106117)">
+            <g clipPath="url(#clip0_4530_106117)">
             <path 
             d="M21.5 3.5L21.0937 2.8906C20.7228 2.3342 20.0983 2 19.4296 2H7C5.89543 2 5 
             2.89543 5 4V25C5 26.1046 5.89543 27 7 27H20C21.1046 27 22 26.1046 22 25V22" 
-            stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            stroke="currentColor" strokeWidth="2" strokeLinecap="round">
             </path>
-            <path d="M6 23H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
-            stroke-linejoin="round">
+            <path d="M6 23H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" 
+            strokeLinejoin="round">
             </path>
-            <path d="M12 6L15 6" stroke="currentColor" stroke-width="2.75" stroke-linecap="round">
+            <path d="M12 6L15 6" stroke="currentColor" strokeWidth="2.75" strokeLinecap="round">
             </path>
             <path d="M27.6931 4.58803C28.3702 3.76533 29.6298 3.76533 30.3069 4.58803L31.1823 
             5.65181C31.5405 6.08703 32.0918 6.31539 32.6528 6.2609L34.0241 6.12773C35.0845 
@@ -145,11 +145,11 @@ export const NybruktMobilIcon = () => {
             13.6298 19.7653 12.3702 20.588 11.6931L21.6518 10.8177C22.087 10.4595 22.3154 
             9.90819 22.2609 9.34718L22.1277 7.97595C22.0247 6.91547 22.9155 6.02474 23.9759 
             6.12773L25.3472 6.2609C25.9082 6.31539 26.4595 6.08703 26.8177 5.65181L27.6931 
-            4.58803Z" stroke="currentColor" stroke-width="2">
+            4.58803Z" stroke="currentColor" strokeWidth="2">
             </path>
             </g>
             <path d="M26 13.5L28.0211 15.3045C28.4474 15.6852 29.104 15.6381 29.4716 15.2004L33 11" 
-            stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            stroke="currentColor" strokeWidth="2" strokeLinecap="round">
             </path>
             <defs>
                 <clipPath id="clip0_4530_106117">

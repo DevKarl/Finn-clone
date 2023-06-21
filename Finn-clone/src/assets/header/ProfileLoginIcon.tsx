@@ -2,7 +2,7 @@ export const ProfileLoginIcon = () => {
     return(
         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g>
-                <path fill="#818B9A" fill-rule="evenodd" clip-rule="evenodd" d="M2 12.5C2 6.70101 6.70101 2 
+                <path fill="#818B9A" fillRule="evenodd" clipRule="evenodd" d="M2 12.5C2 6.70101 6.70101 2 
                 12.5 2C18.299 2 23 6.70101 23 12.5C23 15.6365 21.6248 18.4517 19.4445 20.3757C18.5813 19.6141 
                 17.5975 18.9985 16.5317 18.5551C15.254 18.0235 13.8838 17.7499 12.4999 17.7499C11.116 17.7499 
                 9.74581 18.0235 8.4681 18.5551C7.40239 18.9985 6.4186 19.614 5.55544 20.3756C3.37516 18.4517 2 
