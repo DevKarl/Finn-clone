@@ -31,6 +31,14 @@ const Categories = () => {
                     <p>Eiendom</p>
                 </StyledGridItemLink>
                 <StyledGridItemLink to = '/'>
+                    <BilOgNæringIcon/>
+                    <p>Bil og næring</p>
+                </StyledGridItemLink>
+                <StyledGridItemLink to = '/'>
+                    <JobbIcon/>
+                    <p>Jobb</p>
+                </StyledGridItemLink>
+                <StyledGridItemLink to = '/'>
                     <ReiseIcon/>
                     <p>Reise</p>
                 </StyledGridItemLink>
@@ -45,14 +53,6 @@ const Categories = () => {
                 <StyledGridItemLink to = '/'>
                     <FeriehusOgHytterIcon/>
                     <p>Feriehus & hytter</p>
-                </StyledGridItemLink>
-                <StyledGridItemLink to = '/'>
-                    <BilOgNæringIcon/>
-                    <p>Bil og næring</p>
-                </StyledGridItemLink>
-                <StyledGridItemLink to = '/'>
-                    <JobbIcon/>
-                    <p>Jobb</p>
                 </StyledGridItemLink>
                 <StyledGridItemLink to = '/'>
                     <NybruktMobilIcon/>
