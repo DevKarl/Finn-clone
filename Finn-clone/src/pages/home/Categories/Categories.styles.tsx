@@ -17,8 +17,6 @@ export const StyledNavGrid = styled.nav`
     align-items: stretch;
     justify-items: stretch;
 
-    /* min-width: 640px; */
-
     margin: 20px 16px;
 
 `
@@ -29,10 +27,18 @@ export const StyledGridItemLink = styled(Link)`
     text-decoration: none;
     color: #636363;
     padding: 16px 0px;
+    margin-bottom: 4px;
+
     :hover {
         svg {
             color: #7b7b7b;
         }
+    }
+
+    :focus {
+        outline: none;
+        border: 2px solid #06befb;
+        margin-bottom: 0;
     }
 
     svg {
