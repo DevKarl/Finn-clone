@@ -21,6 +21,7 @@ export const StyledSearchField = styled.div`
     align-items: center;
     flex-grow: 1;
     height: 50px;
+    min-width: 200px;
 `
 
 export const StyledInput = styled.input`
@@ -87,6 +88,5 @@ export const StyledFinnMapBtn = styled.div`
     >p {
         font-weight: 600;
         opacity: 0.7;
-        flex-shrink: 0;
     }
 `
