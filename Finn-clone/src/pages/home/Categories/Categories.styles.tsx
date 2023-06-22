@@ -17,7 +17,7 @@ export const StyledNavGrid = styled.nav`
     align-items: stretch;
     justify-items: stretch;
 
-    margin: 20px 16px;
+    margin: 20px 0px;
 
 `
 
