@@ -1,4 +1,4 @@
-import { StyledRandomAdWrapper, StyledDescription, StyledImgWrapper, StyledImg } from "./RandomAd.styles";
+import { StyledRandomAdWrapper, StyledDescription, StyledImgWrapper } from "./RandomAd.styles";
 
 const RandomAd = () => {
 
@@ -6,7 +6,7 @@ const RandomAd = () => {
         <StyledRandomAdWrapper>
             <StyledDescription/>
             <StyledImgWrapper>
-                <StyledImg/>
+                <img src="https://assets.finn.no/pkg/frontpage-podium/2.0.93/travel-feriehus-sorlandet.png"></img>
             </StyledImgWrapper>
         </StyledRandomAdWrapper>
     )

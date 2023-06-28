@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import RandomAdBilde from '../../../assets/finn random ad bilde.png'
-
 
 export const StyledRandomAdWrapper = styled.section`
 
@@ -22,7 +20,6 @@ export const StyledDescription = styled.div`
 
 export const StyledImgWrapper = styled.div`
     flex: 1;
-    background-image: url ('https://assets.finn.no/pkg/frontpage-podium/2.0.93/travel-feriehus-sorlandet.png');
 `
 
 export const StyledImg = styled.img`
