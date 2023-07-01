@@ -5,17 +5,15 @@ export const StyledRandomAdWrapper = styled.section`
 
     display: flex;
     flex-direction: row;
-    margin: 16px;
+    margin: 26px 16px;
     border-radius: 8px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+    max-height: 200px;
 
 
-    @media (max-width: 480px) {
-
-
-
-
-    }
+    /* @media (min-width: 600px) {
+        min-height: 180px;
+    } */
 
 
 `
@@ -29,31 +27,38 @@ export const StyledDescription = styled.div`
     flex-direction: column;
     gap: 10px;
     justify-content: center;
+
     > h2 {
-        font-family: inherit;
-        font-size: 1.5em;
         margin-bottom: 5px;
+        font-size: large;
+        font-weight: 500;
     }
 
     > p {
         margin-bottom: 5px;
+        font-size: small;
     }
 `
 
 export const StyledLink = styled(Link)`
+    max-width: 165px;
     margin-bottom: 5px;
     background-color: #0063fb;
     color: white;
     text-decoration: none;
-    padding: 8px 16px;
+    padding: 12px 12px;
     font-size: 12px;
     font-weight: 700;
     line-height: 16px;
     border-radius: 4px;
+
+    :hover {
+        background-color: #004abc;
+    }
 `
 
 export const StyledImgWrapper = styled.div`
-    flex: 1;
+    flex: 1.5;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     display: flex;
