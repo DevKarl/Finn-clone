@@ -19,7 +19,7 @@ export const StyledNavGrid = styled.nav`
 
     margin: 20px 0px;
 
-    @media (max-width: 480px) { /* Adjust the breakpoint as needed */
+    @media (max-width: 640px) { /* Adjust the breakpoint as needed */
         grid-template-columns: repeat(4, 1fr);
         min-width: initial;
         gap: 0px 2px;

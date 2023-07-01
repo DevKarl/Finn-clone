@@ -60,7 +60,7 @@ export const StyledInputBtn = styled.button`
     }
 
     :hover {
-        color: #008cbb;
+        color: #06befb;
         cursor: pointer;
     }
 `

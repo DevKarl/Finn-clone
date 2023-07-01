@@ -2,41 +2,38 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const StyledRandomAdWrapper = styled.section`
-
     display: flex;
     flex-direction: row;
     margin: 26px 16px;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
     max-height: 200px;
-
-
-    /* @media (min-width: 600px) {
-        min-height: 180px;
-    } */
-
-
+    height: 180px;
 `
 
 export const StyledDescription = styled.div`
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    padding: 10px;
+    padding: 12px;
     flex: 1.5;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     justify-content: center;
+    margin: 0 10px;
 
     > h2 {
         margin-bottom: 5px;
-        font-size: large;
-        font-weight: 500;
+        font-size: larger;
+        font-weight: 550;
+        opacity: 0.8;
     }
 
     > p {
         margin-bottom: 5px;
         font-size: small;
+        opacity: 0.75;
+        font-weight: 500;
     }
 `
 
@@ -65,6 +62,10 @@ export const StyledImgWrapper = styled.div`
     align-items: center;
     justify-content: center;
     overflow: hidden;
+
+    @media (min-width: 600px) {
+        flex: 1;
+    }
 `
 
 export const StyledImg = styled.img`
