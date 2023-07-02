@@ -9,6 +9,7 @@ export const StyledFooter = styled.footer`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1010px;
 `
 
 export const StyledMainWrapper = styled.div`
@@ -16,13 +17,27 @@ export const StyledMainWrapper = styled.div`
     border-bottom: 1px solid #ccc;
     width: 100%;
     padding: 10px;
+    padding-bottom: 40px;
     gap: 50px;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 786px) {
+        flex-direction: row;
+        margin-top: 100px; 
+        padding: 30px;
+    }
 `
 
 export const StyledSocialsAndLegalWrapper = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
+
+    @media (min-width: 786px) {
+        flex-direction: row;
+        padding: 0px 20px;
+    }
 `
 
 export const StyledLink = styled(Link)`
@@ -39,18 +54,31 @@ export const StyledSection = styled.section`
     flex: 1;
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
     gap: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
 
-    > h4 {
+    > h4, > h2 {
         opacity: 0.8;
     }
 
     & ${StyledLink} {
         opacity: 0.7;
         font-size: 14px;
+        margin-top: 10px;
+    }
+
+    @media (min-width: 786px) {
+        align-items: flex-start;
+
+        > h2 {
+            white-space: nowrap;
+        }
+        gap: 10px;
+
+        & ${StyledLink} {
+            margin-top: 2px;
+        }
     }
 `
 
@@ -74,15 +102,44 @@ export const StyledLegalSectionParagraphWrapper = styled.div`
     padding: 16px;
     margin-bottom: 15px;
     opacity: 0.7;
+
+    @media (min-width: 786px) {
+        text-align: start;
+        margin-left: 30px;
+    }
 `
 
 export const StyledSchibstedWrapper = styled.div`
     background-color: #e9e9e9;
-    height: 50px;
+    height: 60px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
     gap: 2px;
-    opacity: 0.8;
+    font-size: inherit;
+
+    > p,
+    & ${StyledLink} {
+        opacity: 0.8;
+        font-size: 14px;
+    }
+
+    @media (min-width: 786px) {
+        width: 100%;
+        width: 100vw;
+
+        > img {
+            margin: 0 20px;
+        }
+
+        > p {
+            font-size: 14px;
+        }
+    }
+
+`
+
+export const StyledDesktopSchibstedLogo = styled.img`
+    width: 100px;
 `

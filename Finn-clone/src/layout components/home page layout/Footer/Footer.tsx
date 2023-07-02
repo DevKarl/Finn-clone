@@ -1,5 +1,5 @@
 
-import { BigFinnLogo } from "../../../assets/header/BigFinnLogo";
+import { BigFinnLogo } from '../../../assets/header/BigFinnLogo';
 
 import { 
     StyledFooter, 
@@ -10,14 +10,20 @@ import {
     StyledLink,
     StyledLegalSection, 
     StyledSchibstedWrapper,
-    StyledLegalSectionParagraphWrapper
+    StyledLegalSectionParagraphWrapper,
+    StyledDesktopSchibstedLogo
 } 
-from "./Footer.styles";
+from './Footer.styles';
 
-import { FbIcon, TwitterIcon, InstagramIcon, YtIcon } from "../../../assets/footer/FooterIcons";
+import { FbIcon, TwitterIcon, InstagramIcon, YtIcon } from '../../../assets/footer/FooterIcons';
+import SchibstedLogo from '../../../assets/footer/SchibstedLogo.png';
+import { useMediaQuery } from 'react-responsive';
 
 
 const Footer = () => {
+
+
+    const isDesktop = useMediaQuery({query: '(min-width: 786px)'});
 
     return(
             <StyledFooter>
@@ -80,14 +86,25 @@ const Footer = () => {
                             © 1996-2023 FINN.no AS
                             </p>
                         </StyledLegalSectionParagraphWrapper>
+                        {!isDesktop &&
                         <StyledSchibstedWrapper>
                             <p>
                                 Schibsted er ansvarlig for dine data på denne siden.
                             </p>
                             <StyledLink to = './'>Les mer</StyledLink>
                         </StyledSchibstedWrapper>
+                        }
                     </StyledLegalSection>
                 </StyledSocialsAndLegalWrapper>
+                {isDesktop &&
+                        <StyledSchibstedWrapper>
+                            <StyledDesktopSchibstedLogo src={SchibstedLogo}/>
+                            <p>
+                                Schibsted er ansvarlig for dine data på denne siden.
+                            </p>
+                            <StyledLink to = './'>Les mer</StyledLink>
+                        </StyledSchibstedWrapper>
+                    }
             </StyledFooter>
     )
 }
