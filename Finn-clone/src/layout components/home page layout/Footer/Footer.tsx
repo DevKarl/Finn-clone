@@ -11,7 +11,8 @@ import {
     StyledLegalSection, 
     StyledSchibstedWrapper,
     StyledLegalSectionParagraphWrapper,
-    StyledDesktopSchibstedLogo
+    StyledDesktopSchibstedLogo,
+    StyledFooterDesktopBorder
 } 
 from './Footer.styles';
 
@@ -23,10 +24,11 @@ import { useMediaQuery } from 'react-responsive';
 const Footer = () => {
 
 
-    const isDesktop = useMediaQuery({query: '(min-width: 786px)'});
+    const isDesktop = useMediaQuery({query: '(min-width: 1010px)'});
 
     return(
             <StyledFooter>
+                {isDesktop && <StyledFooterDesktopBorder/>}
                 <StyledMainWrapper>
                     <StyledSection>
                         <BigFinnLogo/>

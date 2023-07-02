@@ -12,6 +12,12 @@ export const StyledFooter = styled.footer`
     max-width: 1010px;
 `
 
+export const StyledFooterDesktopBorder = styled.span`
+    border-top: 1px solid #ccc;
+    width: 100vw;
+    margin-top: 50px;
+`
+
 export const StyledMainWrapper = styled.div`
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
@@ -24,8 +30,9 @@ export const StyledMainWrapper = styled.div`
 
     @media (min-width: 1010px) {
         flex-direction: row;
-        margin-top: 100px; 
+        margin-top: 30px; 
         padding: 30px;
+        border-top: none;
     }
 `
 
