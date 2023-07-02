@@ -9,12 +9,22 @@ export const StyledRandomAdWrapper = styled.section`
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
     max-height: 200px;
     height: 180px;
+
+    @media (max-width: 364px) {
+        height: 200px;
+    }
+
+    @media (min-width: 600px) {
+        height: 150px;
+    }
+
+    
 `
 
 export const StyledDescription = styled.div`
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    padding: 12px;
+    padding: 8px;
     flex: 1.5;
     display: flex;
     flex-direction: column;
@@ -24,6 +34,7 @@ export const StyledDescription = styled.div`
 
     > h2 {
         margin-bottom: 5px;
+        margin-top: 2px;
         font-size: larger;
         font-weight: 550;
         opacity: 0.8;
@@ -34,6 +45,11 @@ export const StyledDescription = styled.div`
         font-size: small;
         opacity: 0.75;
         font-weight: 500;
+    }
+
+    @media (max-width: 364px) {
+        gap: 2px;
+        margin: 0 5px;
     }
 `
 
