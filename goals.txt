@@ -17,3 +17,11 @@ Hard challenges for later:
 add user accounts with auth and login
 users can chat in live chat system? 
 
+
+API - dummy products:
+
+fetch('https://dummyjson.com/products')
+.then(res => res.json())
+.then(console.log);
+
+THEN TRANSLATE ALL DATA w/3rd party library
