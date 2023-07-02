@@ -22,7 +22,7 @@ export const StyledMainWrapper = styled.div`
     display: flex;
     flex-direction: column;
 
-    @media (min-width: 786px) {
+    @media (min-width: 1010px) {
         flex-direction: row;
         margin-top: 100px; 
         padding: 30px;
@@ -34,7 +34,7 @@ export const StyledSocialsAndLegalWrapper = styled.div`
     display: flex;
     flex-direction: column;
 
-    @media (min-width: 786px) {
+    @media (min-width: 1010px) {
         flex-direction: row;
         padding: 0px 20px;
     }
@@ -68,7 +68,7 @@ export const StyledSection = styled.section`
         margin-top: 10px;
     }
 
-    @media (min-width: 786px) {
+    @media (min-width: 1010px) {
         align-items: flex-start;
 
         > h2 {
@@ -103,7 +103,7 @@ export const StyledLegalSectionParagraphWrapper = styled.div`
     margin-bottom: 15px;
     opacity: 0.7;
 
-    @media (min-width: 786px) {
+    @media (min-width: 1010px) {
         text-align: start;
         margin-left: 30px;
     }
@@ -125,7 +125,7 @@ export const StyledSchibstedWrapper = styled.div`
         font-size: 14px;
     }
 
-    @media (min-width: 786px) {
+    @media (min-width: 1010px) {
         width: 100%;
         width: 100vw;
 
