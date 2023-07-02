@@ -11,4 +11,5 @@ Tools and libraries:
 - React Router
 - Redux Toolkit
 - Styled components
+- React Responsive 
 

@@ -8,9 +8,13 @@ export const StyledHeader = styled.header`
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #ccc;
-    height: 49px;
+    height: 50px;
     width: 100vw;
     z-index: 100;
+
+    @media (min-width: 786px) {
+        height: 60px;
+    }
 `
 
 export const StyledNavBar = styled.nav`
@@ -25,13 +29,14 @@ export const StyledNavBar = styled.nav`
 
 export const StyledLink = styled(Link)`
     display:flex;
-    width: 100%;
+    flex: 1;
     height: 100%;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
 
     :nth-of-type(1) {
         margin-left: 0;
@@ -42,4 +47,26 @@ export const StyledLink = styled(Link)`
         border-bottom: 2px solid #0063fb;
         transform: translateY(1px);
     }
+
+    @media (min-width: 786px) {
+        margin-left: 20px;
+    }
+
+`
+
+/* ____________________________________ COMPONENTS FOR DESKTOP ____________________________________ */
+
+export const StyledDesktopHeaderText = styled.p`
+    text-align: center;
+    margin-left: 10px;
+    color: #474445;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+`
+
+export const StyledDesktopLinkWrapper = styled.div`
+    display: flex;
+    flex-direction: row;
 `

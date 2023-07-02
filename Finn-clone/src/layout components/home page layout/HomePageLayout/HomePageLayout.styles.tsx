@@ -10,5 +10,9 @@ export const StyledSiteWrapper = styled.div`
 export const StyledMainWrapper = styled.main`
     width: 100%;
     max-width: 1010px;
-    margin-top: 49px;
+    margin-top: 50px;
+
+    @media (min-width: 786px) {
+        margin-top: 80px;
+    }
 `
