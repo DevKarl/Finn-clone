@@ -1,11 +1,6 @@
 NOW:  
-    - MOBILE FIRST: build landing page with HTML&CSS, styled components
-        - header
-        - search field
-        - categories
-        - random ad (hardcode)
-        - popular ads section
-    ^ setup links for these
+    Build  out popular ad-cards 2x6 grid, with refresh button (improvement) vs infinite scroll 
+    (impossible to get to footer)
 
 LATER:
     - setup the links and refactor routes
