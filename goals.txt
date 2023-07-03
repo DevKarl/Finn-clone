@@ -1,6 +1,8 @@
 NOW:  
-    Build  out popular ad-cards 2x6 grid, with refresh button (improvement) vs infinite scroll 
-    (impossible to get to footer)
+    IMPROVEMENT IDEA: REPLACE INFINITE SCROLL W/FIXED 2x6 GRID W/REFERSH BTN 
+    --> because: impossible to get to footer on landing page!
+    Build  out popular ad-cards 2x6 grid, add btn, connect to API (make redux store)
+
 
 LATER:
     - setup the links and refactor routes
