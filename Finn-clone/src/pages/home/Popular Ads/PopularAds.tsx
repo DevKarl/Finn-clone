@@ -30,7 +30,7 @@ const PopularAds = () => {
   // REPLACE THIS WITH ROUTER LOADER LATER
   useEffect(() => {
     const getAds = async function () {
-      const response = await fetch("https://dummyjson.com/products?limit=12");
+      const response = await fetch("https://dummyjson.com/products");
       const data = await response.json();
       console.log(data);
       setData(data.products);
