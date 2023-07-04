@@ -1,8 +1,8 @@
 # Finn- clone 
 
-clone of Finn.no 
-
 currently in the works 🔧 ...
+
+Clone of <a href = "https://www.finn.no">Finn.no</a>, Norways biggest markedplace for second-hand items.
 
 Tools and libraries: 
 
@@ -12,4 +12,3 @@ Tools and libraries:
 - Redux Toolkit
 - Styled components
 - React Responsive 
-

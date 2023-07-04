@@ -1,5 +1,12 @@
 import { useEffect, useState } from "react";
-import { StyledContainer, StyledAdWrapper } from "./PopularAds.styles";
+import { 
+    StyledContainer, 
+    StyledAdLink, 
+    StyledAdImg, 
+    StyledAdImgWrapper,
+    StyledHeader,
+    StyledTextWrapper 
+} from "./PopularAds.styles";
 
 interface Ad {
     brand: string;
@@ -19,9 +26,11 @@ const PopularAds = () => {
 
   const [adData, setData] = useState<Ad[]>([]);
 
+
+  // REPLACE THIS WITH ROUTER LOADER LATER
   useEffect(() => {
     const getAds = async function () {
-      const response = await fetch("https://dummyjson.com/products");
+      const response = await fetch("https://dummyjson.com/products?limit=12");
       const data = await response.json();
       console.log(data);
       setData(data.products);
@@ -31,19 +40,21 @@ const PopularAds = () => {
 
   return (
     <>
-      <h1>Populære annonser</h1>
-      <StyledContainer>
-        {adData.map(ad => (
-          <StyledAdWrapper key={ad.id}>
-            <img src={ad.images[0]} style={{width: '100px'}}></img>
-            <div>
-              <p>place</p>
-              <h3>{ad.title}</h3>
-              <p>{ad.price}</p>
-            </div>
-          </StyledAdWrapper>
-        ))}
-      </StyledContainer>
+      <StyledHeader>Populære annonser</StyledHeader>
+        <StyledContainer>
+            {adData.map(ad => (
+                <StyledAdLink key={ad.id} to='./'>
+                    <StyledAdImgWrapper>
+                        <StyledAdImg src={ad.thumbnail}/>
+                        <p>{ad.price*10} kr</p>
+                    </StyledAdImgWrapper>
+                    <StyledTextWrapper>
+                        <p>place</p>
+                        <h3>{ad.title}</h3>
+                    </StyledTextWrapper>
+                </StyledAdLink>
+            ))}
+        </StyledContainer>
     </>
   );
 };
