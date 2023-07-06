@@ -66,11 +66,11 @@ export const StyledSection = styled.section`
     margin-top: 20px;
 
     > h4, > h2 {
-        opacity: 0.8;
+        color: var(--gray-header-color);
     }
 
     & ${StyledLink} {
-        opacity: 0.7;
+        color: var(--gray-header-color);
         font-size: 14px;
         margin-top: 10px;
     }
