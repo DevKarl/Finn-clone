@@ -8,8 +8,12 @@ export const StyledFindWrapper = styled.section`
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin:14px 16px 16px 16px;
+    margin: 14px 16px 16px 16px;
     gap: 20px;
+
+    @media (min-width: 786px) {
+        margin: 0px 16px;
+    }
 `
 
 // Search Input Field ________________________________

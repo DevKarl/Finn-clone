@@ -4,31 +4,31 @@ import { Link } from "react-router-dom";
 export const StyledRandomAdWrapper = styled.section`
     display: flex;
     flex-direction: row;
-    margin: 26px 16px;
+    margin: 16px;
     border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
-    max-height: 200px;
-    height: 180px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; 
+    max-height: 240px;
+    height: 220px;
 
-    @media (max-width: 364px) {
+    @media (min-width: 364px) {
         height: 200px;
     }
 
     @media (min-width: 600px) {
         height: 150px;
+        margin: 10px 30px;
     }
-
     
 `
 
 export const StyledDescription = styled.div`
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    padding: 8px;
+    padding: 12px 8px;
     flex: 1.5;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     justify-content: center;
     margin: 0 10px;
 
@@ -45,6 +45,7 @@ export const StyledDescription = styled.div`
         font-size: small;
         opacity: 0.75;
         font-weight: 500;
+        line-height: 1.2rem;
     }
 
     @media (max-width: 364px) {
