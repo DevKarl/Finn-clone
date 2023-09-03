@@ -1,34 +1,6 @@
-NOW:  
-    IMPROVEMENT IDEA: REPLACE INFINITE SCROLL W/FIXED 2x6 GRID W/REFERSH BTN 
-    --> because: impossible to get to footer on landing page!
-    Build  out popular ad-cards 2x6 grid, add btn, connect to API (make redux store)
 
+Setup routes
+Build out pages
+Refactor useEffect API call --> use react-router loaders instead
 
-LATER:
-    - setup the links and refactor routes
-
-Find Public API with dummy data or create dummy api with Mirage.js(custom json user object-data)?
-Functionality..
-
-Hard challenges for later:
-add user accounts with auth and login
-users can chat in live chat system? 
-
-
-API - dummy products:
-
-fetch('https://dummyjson.com/products')
-.then(res => res.json())
-.then(console.log);
-
-make call to API with 30 RANDOM products 
-
-THEN TRANSLATE ALL DATA w/3rd party library
-
-- Go through entire design, and refactor based on guidelines (PDF design theory):
-    - typography: font size, letter-spacing, line height, dont center text etc.(footer)
-    - colors: color system: palette: main colors& grey color(shades and tints), maybe accent color(different)?, 
-      no full-black colors, text not too light(contrast ratio), try OpenColors tool, subtile hover&active effects on btns (lighter),
-
-
-    - 
+... 
