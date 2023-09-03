@@ -3,6 +3,8 @@
 Landing page front-end clone of <a href = "https://www.finn.no">Finn.no</a> with improvements,
 using generic products from dummyjson API.
 
+Link to live demo here --> 
+
 Long term goal: Fullstack clone:
 Routes w/pages, Backend, Database and more --> currently in the works 🔧 ...
 
