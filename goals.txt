@@ -1,6 +1,6 @@
 
-Setup routes
-Build out pages
-Refactor useEffect API call --> use react-router loaders instead
+Fiks routes og bygg ut hovedsider
+Refactor useEffect API kall --> bruk react-router loaders istedenfor
+Implementer lazy loading av produkter fra dummyjson-API
 
-Later: build backend and setup database... 
+Senere: build backend and setup database... 
