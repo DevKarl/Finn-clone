@@ -1,6 +1,6 @@
 # Finn- clone 
 
-Landing page front-end clone of <a href = "https://www.finn.no">Finn.no</a> with improvements,
+Landing page front-end clone of <a href = "https://www.finn.no" target="_blank">Finn.no</a> with improvements,
 using generic products from dummyjson API.
 
 Link to live demo here --> 
