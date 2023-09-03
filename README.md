@@ -1,11 +1,9 @@
 # Finn- clone 
 
-Full stack clone of <a href = "https://www.finn.no">Finn.no</a>, Norways biggest markedplace for second-hand items.
+Landing page front-end clone of <a href = "https://www.finn.no">Finn.no</a> with improvements,
+using generic products from dummyjson API.
 
-Status:
-
-Landing page w/dummy products-API --> done ✓
-
+Long term goal: Fullstack clone:
 Routes w/pages, Backend, Database and more --> currently in the works 🔧 ...
 
 Tools and libraries: 
