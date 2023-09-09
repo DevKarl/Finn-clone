@@ -17,8 +17,6 @@ import {
 
 const Categories = () => {
 
-
-
     return(
         <StyledSectionWrapper>
             <StyledNavGrid>
